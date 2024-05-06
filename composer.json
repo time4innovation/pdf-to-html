@@ -1,8 +1,8 @@
 {
-    "name": "wbrframe/pdf-to-html",
+    "name": "time4innovation/pdf-to-html",
     "description": "PDF to HTML converter with PHP using tools, like poppler-utils",
     "keywords": ["poppler-utils", "pdftohtml", "php"],
-    "homepage": "https://github.com/wbrframe/pdf-to-html",
+    "homepage": "https://github.com/time4innovation/pdf-to-html",
     "type": "library",
     "license": "MIT",
     "authors": [
