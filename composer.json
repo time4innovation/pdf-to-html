@@ -1,0 +1,36 @@
+{
+    "name": "wbrframe/pdf-to-html",
+    "description": "PDF to HTML converter with PHP using tools, like poppler-utils",
+    "keywords": ["poppler-utils", "pdftohtml", "php"],
+    "homepage": "https://github.com/wbrframe/pdf-to-html",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vaskevich Yevgeniy",
+            "email": "wbrframe@gmail.com",
+            "role": "Creator"
+        },
+        {
+            "name": "Lorenz Schober",
+            "email": "lorenz.schober@time4innovation.de",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "symfony/filesystem": "^5.0",
+        "symfony/process": "^5.0",
+        "symfony/dom-crawler": "^5.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Wbrframe\\PdfToHtml\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.18",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}
